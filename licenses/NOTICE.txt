@@ -1,0 +1,14 @@
+Spelling Bee Solver — modified ESDB word list.
+
+Derived from esdb-r01-1e5b7d3a-52b7e6ee2feb0d8dd40f, policy bee-lexicon-v2-experimental-01.
+Source revision: 1e5b7d3a72f47a71da5d28686c1dd4b397178485.
+Modification: retain the existing US-eligible surfaces (mask & 1), and remove
+words shorter than four letters, which cannot match this extension's rules.
+No spellings invented, generated, added or truncated. 77533 words.
+Full upstream copyright, permissions and sources accompany this notice.
+The originating release's private-experiment metadata is historical; this
+extension build is local Phase 1 work and does not authorize publication.
+Dictionary inclusion does not establish any publisher's acceptance.
+
+Copyright 2000-2026 Kevin Atkinson; Copyright 2016 Benjamin Titze.
+See ESDB-Copyright.txt and ESDB-Sources.md for the complete notices.

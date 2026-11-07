@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Spelling Bee Solver</title>
+  <link rel="stylesheet" href="popup.css">
+  <script type="module" src="popup.js"></script>
+</head>
+<body aria-busy="true">
+  <main>
+    <header>
+      <div class="title-line"><img class="brand-mark" src="icons/icon-128.png" width="32" height="32" alt="" aria-hidden="true"><h1>Spelling Bee Solver</h1></div>
+      <p class="subtitle">Enter 7 letters to find matching words instantly.</p>
+    </header>
+
+    <section class="puzzle" aria-label="Puzzle letters">
+      <div class="puzzle-caption"><span>YOUR LETTERS</span><span id="progress">0 of 7 letters</span></div>
+      <div class="hive" role="group" aria-label="Seven letter honeycomb" aria-describedby="hive-help input-error">
+        <label class="cell center"><input disabled aria-label="Center letter (required in every word)" type="text" maxlength="1" pattern="[A-Za-z]" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" autofocus></label>
+        <label class="cell outer-1"><input disabled aria-label="Outer letter 1, top" type="text" maxlength="1" pattern="[A-Za-z]" autocomplete="off" autocapitalize="characters" spellcheck="false"></label>
+        <label class="cell outer-2"><input disabled aria-label="Outer letter 2, upper right" type="text" maxlength="1" pattern="[A-Za-z]" autocomplete="off" autocapitalize="characters" spellcheck="false"></label>
+        <label class="cell outer-3"><input disabled aria-label="Outer letter 3, lower right" type="text" maxlength="1" pattern="[A-Za-z]" autocomplete="off" autocapitalize="characters" spellcheck="false"></label>
+        <label class="cell outer-4"><input disabled aria-label="Outer letter 4, bottom" type="text" maxlength="1" pattern="[A-Za-z]" autocomplete="off" autocapitalize="characters" spellcheck="false"></label>
+        <label class="cell outer-5"><input disabled aria-label="Outer letter 5, lower left" type="text" maxlength="1" pattern="[A-Za-z]" autocomplete="off" autocapitalize="characters" spellcheck="false"></label>
+        <label class="cell outer-6"><input disabled aria-label="Outer letter 6, upper left" type="text" maxlength="1" pattern="[A-Za-z]" autocomplete="off" autocapitalize="characters" spellcheck="false"></label>
+      </div>
+      <div class="reset-row"><button id="reset" type="button" disabled><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg><span>Reset</span></button></div>
+      <p id="hive-help">Every word must use the <span class="center-key"></span> center letter.</p>
+      <p id="input-error" role="status" aria-live="polite" aria-atomic="true"></p>
+    </section>
+
+    <section class="results" aria-labelledby="results-heading">
+      <div class="results-title"><h2 id="results-heading">Matching Words</h2><span id="word-count" aria-hidden="true">0</span></div>
+      <p id="results-summary" class="sr-only" role="status" aria-live="polite" aria-atomic="true">Restoring your puzzle…</p>
+      <div id="results-scroll" role="region" aria-label="Matching word list" tabindex="0">
+        <p id="empty-state">Restoring your puzzle…</p>
+        <ul id="words" hidden></ul>
+      </div>
+      <p class="dictionary-note">Dictionary matches; puzzle publishers may accept different words.</p>
+    </section>
+  </main>
+  <footer>
+    <p class="website-prompt">Need hints, more dictionaries, filters or custom rules? <a href="https://spellingbeeanswers.app/" target="_blank" rel="noopener noreferrer">Try our FREE solver!</a></p>
+    <p class="attribution">Powered By spellingbeeanswers.app</p>
+  </footer>
+</body>
+</html>

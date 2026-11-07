@@ -1,0 +1,74 @@
+{
+  "source": "Owner-supplied pack of the approved honeybee generated specifically for this project using ChatGPT image generation.",
+  "archiveSha256": "9db451b323376973c37b94ebfb4ba5ff31c1801475b513b44ce0273530a73bf8",
+  "modifications": "None; supplied PNG sizes used verbatim. Large originals retained for future authorized artwork.",
+  "rights": "Owner explicitly authorizes commercial use and distribution in Spelling Bee Solver, browser-store listings, the GitHub repository and promotional materials. No third-party stock-art license is required on the supplied origin evidence. No new open-source license or exclusivity/copyright guarantee is implied.",
+  "files": [
+    {
+      "name": "bee-original.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "bytes": 898053,
+      "sha256": "0fc2e606accdb4562c61706495c85623eb67f0c5676fdd5b1a395676d2ad40d3"
+    },
+    {
+      "name": "icon-16.png",
+      "size": [
+        16,
+        16
+      ],
+      "mode": "RGBA",
+      "bytes": 872,
+      "sha256": "77c2275665111171b1cf3fc5494f11ab71ad39205d97e94e40c29da22aa98543"
+    },
+    {
+      "name": "icon-32.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "bytes": 2702,
+      "sha256": "be1f75298a8dce9f6cc0deb2f18b8223b1b4762481fef6ed23d9a8d701052a89"
+    },
+    {
+      "name": "icon-48.png",
+      "size": [
+        48,
+        48
+      ],
+      "mode": "RGBA",
+      "bytes": 4212,
+      "sha256": "7ae8626bfe6705c91e9332e30a284c4571054d6ea6378c664d9081eee04ff2c3"
+    },
+    {
+      "name": "icon-128.png",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "bytes": 20243,
+      "sha256": "5f2e4ecad55278b4e3eef160e58899c582c5dacd98e9eb3f9e4174242f438a2e"
+    },
+    {
+      "name": "icon-512.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bytes": 188930,
+      "sha256": "8f27452dcd4b6880de3bd1e9a621f766836105b1ebe636c43bbe260faba4a727"
+    }
+  ],
+  "origin": {
+    "kind": "AI-generated",
+    "tool": "ChatGPT image-generation tool",
+    "evidence": "Owner explicit Phase 3 clarification, 2026-11-08; not represented as stock artwork or a copied illustration."
+  },
+  "authorizationDate": "2026-11-08"
+}

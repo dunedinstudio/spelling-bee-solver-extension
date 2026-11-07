@@ -1,0 +1,24 @@
+{
+  "name": "spelling-bee-solver-extension",
+  "productName": "Spelling Bee Solver",
+  "version": "0.1.2",
+  "private": true,
+  "type": "module",
+  "description": "Spelling Bee Solver: seven letters, instant local matching words.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/check.mjs",
+    "test:browser": "node scripts/browser-test.mjs",
+    "benchmark": "node --expose-gc scripts/benchmark.mjs",
+    "dev": "node scripts/dev.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.64.1",
+    "typescript": "6.0.3"
+  }
+}

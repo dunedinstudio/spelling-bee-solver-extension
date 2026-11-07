@@ -1,0 +1,25 @@
+{
+  "name": "ESDB-derived US English",
+  "datasetId": "esdb-r01-1e5b7d3a-52b7e6ee2feb0d8dd40f",
+  "policyVersion": "bee-lexicon-v2-experimental-01",
+  "source": {
+    "repository": "https://github.com/en-wl/wordlist",
+    "revision": "1e5b7d3a72f47a71da5d28686c1dd4b397178485",
+    "archiveSha256": "4a9acd18d0c16ed595d11458a2dbc226c8a91f93c89970c0f4506444a8f4b161"
+  },
+  "websiteManifestSha256": "aeb858b194ad0e8779732a9671d7d3a0f00b7e5d2f4102a54b678667e8fed4aa",
+  "websiteWordsSha256": "d1bf540f79d5344106cccef364790fd476d686a9c77f5206c7e99ad494da8104",
+  "transform": "Preserve all US-eligible (membership & 1) lowercase ASCII words of length >= 4; retain source ASCII order; LF-delimited with final LF.",
+  "originalUnionCount": 81256,
+  "originalUSCount": 78271,
+  "wordCount": 77533,
+  "bytes": 743158,
+  "sha256": "8db581a29b4ec371d5e2ea1b1a4006444728356808022c7d3d55d6b4806aa241",
+  "licenses": {
+    "ESDB-Copyright.txt": "71bffd4b74ad47fff01c8b3c666e77da92737854e568850d8728024e0a53f304",
+    "ESDB-Sources.md": "f6469057a011888e4eaefc3f7886a3da21c57c0c3383a076a5eb04a05f044387",
+    "NOTICE.txt": "29478275f80e8db24e1edb1f7ad558bc23ec7bf2f7c1a232f48565831103a26e"
+  },
+  "qualifiedIndependentLexicalCertification": false,
+  "publicReleaseAuthorizedByThisTask": false
+}
