@@ -16,7 +16,7 @@ Matches are dictionary candidates. Individual games may accept different words. 
 
 ## Browsers and installation
 
-Version 0.1.2 was functionally and visually accepted by the owner in Chrome, Firefox, Edge and Opera. Firefox desktop minimum: 140. Store publication is pending; no verified store links exist yet.
+Version 0.1.2 was functionally and visually accepted by the owner in Chrome, Firefox, Edge and Opera. Firefox desktop minimum: 140. As of November 8, 2026, Chrome and Edge are live according to the publisher; Opera is submitted and awaiting moderation; Firefox approval remains pending. Verified public store links will be added when supplied.
 
 Build the source, then load dist/chromium in Chrome/Edge/Opera with Developer mode → Load unpacked. Firefox: about:debugging → This Firefox → Load Temporary Add-on → dist/firefox/manifest.json. Temporary Firefox installations end on browser exit; normal permanent distribution requires signing. Never disable security/signature checks.
 
@@ -45,7 +45,7 @@ Optional: npm run dev starts a local preview; npm run test:browser runs installe
 
 The only permission is storage. One browser.storage.local / chrome.storage.local record contains a schema version and seven positional letters, including partial puzzles. Matching words regenerate locally and are never saved. There is no puzzle history, cloud sync, telemetry, website reading or puzzle transmission. Reset removes the stored record; profile deletion, uninstallation, storage errors or browser data clearing may remove/prevent restoration. Storage failures show a notice while local solving continues.
 
-The popup has exactly one explicit website link, with noopener/noreferrer and no puzzle letters in its URL. The linked website has separate privacy practices. The plain Powered By line is non-clickable. Public extension-specific policy/support details will be added only after the owner publishes and verifies them.
+The popup has exactly one explicit website link, with noopener/noreferrer and no puzzle letters in its URL. The linked website has separate privacy practices. The plain Powered By line is non-clickable. Extension privacy policy: https://spellingbeeanswers.app/extension-privacy-policy. Support: https://spellingbeeanswers.app/contact.
 
 ## Dictionary, artwork and code rights
 
@@ -59,7 +59,7 @@ No open-source license for the original application code has been selected. No p
 
 ## Repository and release status
 
-Repository name: spelling-bee-solver-extension. Keep it private until all four official stores are publicly live and the owner separately authorizes public GitHub publication. No automatic visibility change or public release is configured. Store submission, agreements, fees, identity verification and publication belong to the owner.
+Repository name: spelling-bee-solver-extension. The owner has authorized making this source repository public while Opera and Firefox approval is pending. Public visibility is not an open-source license for the original proprietary application code; independent third-party dictionary terms still apply. No automatic visibility change or release is configured. Marketplace submissions, agreements, and publication remain the owner's responsibility.
 
 ## Developer attribution
 
